@@ -1,0 +1,18 @@
+/* ===== hero ===== */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1600");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 140px 20px 100px;
+}
+
+.hero__title {
+  font-size: 44px;
+  max-width: 600px;
+}
+
+.hero__actions {
+  margin-top: 20px;
+}

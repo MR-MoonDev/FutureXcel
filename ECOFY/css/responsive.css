@@ -1,0 +1,30 @@
+/* ===== responsive ===== */
+@media (min-width: 768px) {
+  .grid::after,
+  .split::after,
+  .nav::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .grid .card {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+
+  .grid .card:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .split__img,
+  .split__content {
+    float: left;
+    width: 50%;
+  }
+
+  .split__content {
+    padding-left: 30px;
+  }
+}

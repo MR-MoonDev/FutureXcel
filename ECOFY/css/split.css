@@ -1,0 +1,9 @@
+/* ===== split section ===== */
+.split {
+  margin-top: 40px;
+}
+
+.split__img img {
+  width: 100%;
+  border-radius: var(--radius);
+}

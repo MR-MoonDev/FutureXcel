@@ -1,0 +1,28 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--c-text);
+  background: #fff;
+}
+
+/* ===== shared ===== */
+.container {
+  max-width: var(--maxw);
+  margin: auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: var(--radius);
+  background: var(--c-primary);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn--outline {
+  background: transparent;
+  border: 2px solid #fff;
+}

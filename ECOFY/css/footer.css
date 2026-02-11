@@ -1,0 +1,8 @@
+/* ===== footer ===== */
+.footer {
+  background: var(--c-bg);
+  color: #cfcfcf;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}

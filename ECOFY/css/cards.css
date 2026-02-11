@@ -1,0 +1,28 @@
+/* ===== services cards ===== */
+.grid {
+  margin-top: 40px;
+}
+
+.card {
+  background: var(--c-light);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 380px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.card__title {
+  margin: 12px 0;
+  min-height: 48px;
+}

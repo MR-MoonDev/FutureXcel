@@ -1,0 +1,11 @@
+:root {
+  --c-primary: #2e7d32;
+  --c-primary-dark: #145a1a;
+  --c-accent: #66bb6a;
+  --c-bg: #0b1d13;
+  --c-light: #f5f7f6;
+  --c-text: #1e1e1e;
+
+  --radius: 14px;
+  --maxw: 1200px;
+}
