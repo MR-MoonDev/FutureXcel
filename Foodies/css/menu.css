@@ -1,0 +1,69 @@
+.menu {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Grid Layout for Equal Cards */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Card */
+.item {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: var(--radius);
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Equal Image Size */
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+}
+
+/* Text */
+.item h3 {
+    margin: 0.5rem 0;
+}
+
+.item p {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Hover */
+.item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+    .menu {
+        padding: 2rem 1rem;
+    }
+
+    .item img {
+        height: 180px;
+    }
+}

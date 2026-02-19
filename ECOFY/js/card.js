@@ -19,7 +19,7 @@ const services = [
 
 
 const grid = document.querySelector('.grid');
-grid.innerHTML = ""; // Clear existing cards if any
+grid.innerHTML = ""; 
 
 services.forEach(service => {
   const card = document.createElement('div');

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Landing Page</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div id="navbar-container"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Enjoy Your Delicious Food</h1>
+      <p>Fresh, tasty, and delivered to your door.</p>
+      <button id="open-modal">Get Started</button>
+    </div>
+  </section>
+
+  <!-- Food Menu Section -->
+  <div id="menu-container"></div>
+
+  <!-- Accordion Section -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">What is the delivery time?</button>
+        <div class="accordion-body">
+          Our average delivery time is 30-45 minutes.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header">Do you offer vegan options?</button>
+        <div class="accordion-body">
+          Yes, we have a variety of vegan dishes available.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Dialog -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <h2>Order Your Favorite Food</h2>
+      <p>Sign up now and get 10% off your first order!</p>
+      <button id="open-modal" class="open-modal-btn">Order now</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Developed by Muneeb</p>
+  </footer>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/accordion.js"></script>
+</body>
+
+</html>
