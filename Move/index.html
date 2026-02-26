@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Movie Finder</h1>
+
+<div class="search-box">
+<input type="text" id="search-input" placeholder="Enter movie name (Batman)">
+<button id="search-btn">Search</button>
+</div>
+
+</header>
+
+<div id="loader" class="hidden">Loading...</div>
+
+<div id="results-grid" class="results-grid"></div>
+
+<div id="message" class="message"></div>
+
+<div id="pagination" class="pagination hidden">
+<button id="prev-btn">Previous</button>
+<span id="page-number">Page 1</span>
+<button id="next-btn">Next</button>
+</div>
+
+</div>
+
+<footer>
+<p>Developed by MUNEEB SIDDIQUI</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
